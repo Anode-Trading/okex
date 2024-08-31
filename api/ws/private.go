@@ -2,10 +2,10 @@ package ws
 
 import (
 	"encoding/json"
-	"github.com/anode-trading/okex"
-	"github.com/anode-trading/okex/events"
-	"github.com/anode-trading/okex/events/private"
-	requests "github.com/anode-trading/okex/requests/ws/private"
+	"github.com/Anode-Trading/okex"
+	"github.com/Anode-Trading/okex/events"
+	"github.com/Anode-Trading/okex/events/private"
+	requests "github.com/Anode-Trading/okex/requests/ws/private"
 )
 
 // Private

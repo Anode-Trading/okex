@@ -3,11 +3,12 @@ package ws
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/anode-trading/okex"
-	"github.com/anode-trading/okex/events"
-	"github.com/anode-trading/okex/events/public"
-	requests "github.com/anode-trading/okex/requests/ws/public"
 	"strings"
+
+	"github.com/Anode-/okex"
+	"github.com/Anode-Trading/okex/events"
+	"github.com/Anode-Trading/okex/events/public"
+	requests "github.com/Anode-Trading/okex/requests/ws/public"
 )
 
 // Public

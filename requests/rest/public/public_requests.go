@@ -1,6 +1,6 @@
 package public
 
-import "github.com/anode-trading/okex"
+import "github.com/Anode-Trading/okex"
 
 type (
 	GetInstruments struct {

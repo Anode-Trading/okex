@@ -1,8 +1,8 @@
 package public_data
 
 import (
-	"github.com/anode-trading/okex/models/publicdata"
-	"github.com/anode-trading/okex/responses"
+	"github.com/Anode-Trading/okex/models/publicdata"
+	"github.com/Anode-Trading/okex/responses"
 )
 
 type (

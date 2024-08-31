@@ -3,9 +3,9 @@ package api
 import (
 	"context"
 
-	"github.com/anode-trading/okex"
-	"github.com/anode-trading/okex/api/rest"
-	"github.com/anode-trading/okex/api/ws"
+	"github.com/Anode-Trading/okex"
+	"github.com/Anode-Trading/okex/api/rest"
+	"github.com/Anode-Trading/okex/api/ws"
 )
 
 // Client is the main api wrapper of okex

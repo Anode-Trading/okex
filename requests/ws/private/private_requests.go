@@ -1,6 +1,6 @@
 package private
 
-import "github.com/anode-trading/okex"
+import "github.com/Anode-Trading/okex"
 
 type (
 	Account struct {

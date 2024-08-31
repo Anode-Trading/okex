@@ -1,14 +1,14 @@
 okex
 ====
-[![Go Reference](https://pkg.go.dev/badge/github.com/anode-trading/okex.svg)](https://pkg.go.dev/github.com/anode-trading/okex)
-[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/anode-trading/okex.svg)](https://github.com/anode-trading/okex)
-[![GoReportCard example](https://goreportcard.com/badge/github.com/anode-trading/okex)](https://goreportcard.com/report/github.com/anode-trading/okex)
-[![GitHub license](https://img.shields.io/github/license/anode-trading/okex.svg)](https://github.com/anode-trading/okex/blob/main/LICENSE)
-[![GitHub release](https://img.shields.io/github/release/anode-trading/okex.svg)](https://GitHub.com/anode-trading/okex/releases/)
+[![Go Reference](https://pkg.go.dev/badge/github.com/Anode-Trading/okex.svg)](https://pkg.go.dev/github.com/Anode-Trading/okex)
+[![GitHub go.mod Go version of a Go module](https://img.shields.io/github/go-mod/go-version/Anode-Trading/okex.svg)](https://github.com/Anode-Trading/okex)
+[![GoReportCard example](https://goreportcard.com/badge/github.com/Anode-Trading/okex)](https://goreportcard.com/report/github.com/Anode-Trading/okex)
+[![GitHub license](https://img.shields.io/github/license/Anode-Trading/okex.svg)](https://github.com/Anode-Trading/okex/blob/main/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/Anode-Trading/okex.svg)](https://GitHub.com/Anode-Trading/okex/releases/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![CI](https://github.com/anode-trading/okex/actions/workflows/main.yml/badge.svg)](https://github.com/anode-trading/okex/actions/workflows/main.yml)
-[![CodeQL](https://github.com/anode-trading/okex/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/anode-trading/okex/actions/workflows/codeql-analysis.yml)
-[![AutoRelease](https://github.com/anode-trading/okex/actions/workflows/release.yml/badge.svg)](https://github.com/anode-trading/okex/actions/workflows/release.yml)
+[![CI](https://github.com/Anode-Trading/okex/actions/workflows/main.yml/badge.svg)](https://github.com/Anode-Trading/okex/actions/workflows/main.yml)
+[![CodeQL](https://github.com/Anode-Trading/okex/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/Anode-Trading/okex/actions/workflows/codeql-analysis.yml)
+[![AutoRelease](https://github.com/Anode-Trading/okex/actions/workflows/release.yml/badge.svg)](https://github.com/Anode-Trading/okex/actions/workflows/release.yml)
 
 *NOTICE:*
 > PACKAGE IS CURRENTLY UNDER HEAVY DEVELOPMENT AND THERE IS NO GUARANTY FOR STABILITY.
@@ -25,7 +25,7 @@ Installation
 -----------------
 
 ```bash
-go get github.com/anode-trading/okex@v1.1.4-alpha
+go get github.com/Anode-Trading/okex@v1.1.4-alpha
 ```
 
 Usage
@@ -36,11 +36,11 @@ package main
 
 import (
   "context"
-  "github.com/anode-trading/okex"
-  "github.com/anode-trading/okex/api"
-  "github.com/anode-trading/okex/events"
-  "github.com/anode-trading/okex/events/public"
-  ws_public_requests "github.com/anode-trading/okex/requests/ws/public"
+  "github.com/Anode-Trading/okex"
+  "github.com/Anode-Trading/okex/api"
+  "github.com/Anode-Trading/okex/events"
+  "github.com/Anode-Trading/okex/events/public"
+  ws_public_requests "github.com/Anode-Trading/okex/requests/ws/public"
   "log"
 )
 
@@ -138,4 +138,4 @@ Features
 * Fully automated authorization steps for both [REST](/api/rest) and [WS](/api/ws)
 * To receive websocket events you can choose [RawEventChan](/api/ws/client.go#L25)
   , [StructuredEventChan](/api/ws/client.go#L28), or provide your own
-  channels. [More info](https://github.com/anode-trading/okex/wiki/Handling-WS-events) 
+  channels. [More info](https://github.com/Anode-Trading/okex/wiki/Handling-WS-events) 
