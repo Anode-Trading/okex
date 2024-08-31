@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Anode-/okex"
+	"github.com/Anode-Trading/okex"
 	"github.com/Anode-Trading/okex/events"
 	"github.com/Anode-Trading/okex/events/public"
 	requests "github.com/Anode-Trading/okex/requests/ws/public"
