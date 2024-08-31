@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/amir-the-h/okex"
+	"github.com/anode-trading/okex"
 )
 
 type (
