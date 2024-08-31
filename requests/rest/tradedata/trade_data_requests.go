@@ -1,6 +1,6 @@
 package tradedata
 
-import "github.com/amir-the-h/okex"
+import "github.com/anode-trading/okex"
 
 type (
 	GetTakerVolume struct {
