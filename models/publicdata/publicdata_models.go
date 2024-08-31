@@ -1,7 +1,7 @@
 package publicdata
 
 import (
-	"github.com/anode-trading/okex"
+	"github.com/Anode-Trading/okex"
 )
 
 type (

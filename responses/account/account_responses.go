@@ -1,8 +1,8 @@
 package account
 
 import (
-	models "github.com/anode-trading/okex/models/account"
-	"github.com/anode-trading/okex/responses"
+	models "github.com/Anode-Trading/okex/models/account"
+	"github.com/Anode-Trading/okex/responses"
 )
 
 type (

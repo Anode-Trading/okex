@@ -1,4 +1,4 @@
-module github.com/anode-trading/okex
+module github.com/Anode-Trading/okex
 
 go 1.23
 

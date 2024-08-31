@@ -1,9 +1,9 @@
 package sub_account
 
 import (
-	"github.com/anode-trading/okex/models/account"
-	models "github.com/anode-trading/okex/models/subaccount"
-	"github.com/anode-trading/okex/responses"
+	"github.com/Anode-Trading/okex/models/account"
+	models "github.com/Anode-Trading/okex/models/subaccount"
+	"github.com/Anode-Trading/okex/responses"
 )
 
 type (

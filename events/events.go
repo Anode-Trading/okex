@@ -2,7 +2,7 @@ package events
 
 import (
 	"encoding/json"
-	"github.com/anode-trading/okex"
+	"github.com/Anode-Trading/okex"
 )
 
 type (

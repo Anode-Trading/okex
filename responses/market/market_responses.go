@@ -1,8 +1,8 @@
 package market
 
 import (
-	"github.com/anode-trading/okex/models/market"
-	"github.com/anode-trading/okex/responses"
+	"github.com/Anode-Trading/okex/models/market"
+	"github.com/Anode-Trading/okex/responses"
 )
 
 type (

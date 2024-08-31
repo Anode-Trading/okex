@@ -2,9 +2,9 @@ package rest
 
 import (
 	"encoding/json"
-	"github.com/anode-trading/okex"
-	requests "github.com/anode-trading/okex/requests/rest/account"
-	responses "github.com/anode-trading/okex/responses/account"
+	"github.com/Anode-Trading/okex"
+	requests "github.com/Anode-Trading/okex/requests/rest/account"
+	responses "github.com/Anode-Trading/okex/responses/account"
 	"net/http"
 	"strings"
 )

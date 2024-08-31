@@ -1,8 +1,8 @@
 package trade_data
 
 import (
-	"github.com/anode-trading/okex/models/tradedata"
-	"github.com/anode-trading/okex/responses"
+	"github.com/Anode-Trading/okex/models/tradedata"
+	"github.com/Anode-Trading/okex/responses"
 )
 
 type (
