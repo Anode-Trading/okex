@@ -3,9 +3,10 @@ package market
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/amir-the-h/okex"
 	"strconv"
 	"time"
+
+	"github.com/amir-the-h/okex"
 )
 
 type (
@@ -46,6 +47,8 @@ type (
 		Asks     []*OrderBookEntity `json:"asks"`
 		Bids     []*OrderBookEntity `json:"bids"`
 		Checksum int                `json:"checksum"`
+		PrvSeqId int                `json:"prevSeqId"`
+		SeqId    int                `json:"seqId"`
 		TS       okex.JSONTime      `json:"ts"`
 	}
 	OrderBookEntity struct {
