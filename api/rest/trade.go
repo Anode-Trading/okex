@@ -2,10 +2,11 @@ package rest
 
 import (
 	"encoding/json"
+	"net/http"
+
 	"github.com/Anode-Trading/okex"
 	requests "github.com/Anode-Trading/okex/requests/rest/trade"
 	responses "github.com/Anode-Trading/okex/responses/trade"
-	"net/http"
 )
 
 // Trade
@@ -97,7 +98,7 @@ func (c *Trade) CandleOrder(req []requests.CancelOrder) (response responses.Plac
 // Amend incomplete orders in batches. Maximum 20 orders can be amended at a time. Request parameters should be passed in the form of an array.
 //
 // https://www.okex.com/docs-v5/en/#rest-api-trade-amend-multiple-orders
-func (c *Trade) AmendOrder(req []requests.OrderList) (response responses.AmendOrder, err error) {
+func (c *Trade) AmendOrder(req []requests.AmendOrder) (response responses.AmendOrder, err error) {
 	p := "/api/v5/trade/amend-order"
 	var tmp interface{}
 	tmp = req[0]
